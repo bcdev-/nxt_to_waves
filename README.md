@@ -1,1 +1,4 @@
-# nxt_to_waves
+# Nxt to Waves asset Gateway
+
+A pretty simple, single-direction NXT -> Waves Gateway.
+

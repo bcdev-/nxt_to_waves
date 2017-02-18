@@ -1,0 +1,9 @@
+{
+  "waves_api_url": "http://127.0.0.1:6869",
+  "waves_api_key": "evik904i5v9mgoupgsnio",
+  "waves_fee": 100000,
+  "waves_address": "",
+  "nxt_wait_for_confirmations": 5,
+  "last-scanned-nxt-block": "",
+  "last-scanned-waves-block": ""
+}
