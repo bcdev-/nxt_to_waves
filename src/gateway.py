@@ -1,6 +1,7 @@
 import time
 from .settings import Settings
 from .nxtnode import get_blockchain_deposits, get_account, refund_asset_transfer
+from .wavesnode import send_currency
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
@@ -38,7 +39,8 @@ class Gateway:
 
         for tx in forward:
             logger.info("Forwarding transaction: " + str(tx))
-            # TODO
+            logger.info(send_currency(self.settings, self.settings.config["asset_associacions"][str(tx.asset_id)],
+                                      tx.message, tx.quantity_qnt, "NXT transfer " + tx.tx_id))
 
         for tx in refund:
             logger.info("Refunding transaction: " + str(tx))
