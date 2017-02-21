@@ -2,8 +2,10 @@
   "waves_api_url": "http://127.0.0.1:6869",
   "waves_api_key": "evik904i5v9mgoupgsnio",
   "waves_fee": 100000,
-  "waves_address": "",
-  "nxt_wait_for_confirmations": 5,
-  "last-scanned-nxt-block": "",
-  "last-scanned-waves-block": ""
+  "waves_address": "3N4HNhQRXgXjhrwHhX2aUtQgXAabJnkcBT2",
+  "nxt_address": "NXT-QQ3T-92RV-GGHG-39TWE",
+  "nxt_secret_phrase": "Iqf1yykIW2zrg4pS",
+  "nxt_api_url": "http://127.0.0.1:7876",
+  "nxt_confirmations": 5,
+  "last_processed_nxt_block": 1
 }
